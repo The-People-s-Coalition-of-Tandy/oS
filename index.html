@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 
 
@@ -14,7 +14,6 @@ let music = new Audio('./assets/02. Orchestra Song Master.wav');
 
 function playAndStop() {
     boolSwitch=!boolSwitch;
-    // console.log(boolSwitch);
 
     if (boolSwitch == true) {
       music.play();
@@ -128,46 +127,10 @@ function changeBG(){
 
 
   <!-- ************ tandy web ring ******************* -->
-                     <div class="webring">
-                         <webring-css site="https://the-people-s-coalition-of-tandy.github.io/PCoTandy/">
-                           <style>
-                              .webring {
-                                text-align: center;
-                                font: 100% system-ui, sans-serif;
-                              }
-
-                              .logo {
-                                  height: 50px;
-                              }
-
-                              #navigator {
-                                  display: flex;
-                                  justify-content: center;
-                                  gap: 8px;
-                              }
-
-                              #copy {
-                                margin-bottom: 10px;
-                              }
-                            </style>
-                            <div class="webring">
-                                <div id="copy">
-                                  <strong>The Tandy Webring</strong>
-
-                                </div>
-                                    <div id="navigator">
-                                      <p>
-                                          <a href="https://juilie.github.io/JuiliuliuL/">[Prev]</a>
-                                      </p>
-                                          <img class="logo" src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Tandy-Webring/main/TandyLogo.png">
-                                      <p>
-                                          <a href="https://suneinyneeenan.github.io/Enhydrax/">[Next]</a>
-                                      </p>
-
-                                    </div>
-                          </div>
-                         </webring-css>
-                       </div>
+  <div id="tandyWebring">
+    <script type="text/javascript" src="https://webring.pcotandy.org/variables.js"></script>
+    <script type="text/javascript" src="https://webring.pcotandy.org/webring.js"></script>
+    </div>
 
 
 <div class="">
